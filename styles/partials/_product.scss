@@ -1,0 +1,42 @@
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  height: 500px;
+  margin: 20px;
+  background: #FFFFFF;
+  box-shadow: 0 4px 21px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.supplement-product-info {
+  text-align: center;
+}
+
+.product-card-heading {
+  font-family: Montserrat, serif;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 18px;
+  color: $black;
+}
+
+.product-card-text {
+  font-family: Hind, serif;
+  font-weight: normal;
+  font-size: 15px;
+  color: $black;
+  text-align: center;
+}
+
+.supplement-link {
+  font-family: Hind, serif;
+  font-weight: normal;
+  font-size: 18px;
+  color: $blue;
+  text-decoration: none;
+  padding-top: 10px;
+}

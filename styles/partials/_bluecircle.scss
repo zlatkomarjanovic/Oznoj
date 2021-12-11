@@ -1,0 +1,16 @@
+.blue-circle {
+  position: absolute;
+  height: 700px;
+  width: 700px;
+  background-color: $light-blue;
+  border-radius: 500px;
+  z-index: -10;
+
+  @media screen and (max-width: 1200px){
+    height: 400px;
+    width: 400px;
+  }
+  @media screen and (max-width: 900px){
+    display: none;
+  }
+}

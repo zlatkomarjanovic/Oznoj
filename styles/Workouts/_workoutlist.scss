@@ -1,0 +1,38 @@
+.workout-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 150px;
+}
+
+.workout-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 300px;
+  margin: 20px;
+  background: #FFFFFF;
+  box-shadow: 0 4px 21px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.workout-info {
+  font-family: Montserrat, serif;
+  padding: 5px;
+  font-weight: normal;
+  font-size: 18px;
+  color: $black;
+}
+
+.workout-information {
+  text-align: center;
+  margin: 20px;
+}
+
+.workout-more-information {
+  font-family: Montserrat, serif;
+  text-decoration: none;
+  color: $blue;
+}

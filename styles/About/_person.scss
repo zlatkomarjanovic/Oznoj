@@ -1,0 +1,112 @@
+.our-team {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 50px 150px;
+}
+
+.person {
+  background: rgba(124, 157, 243, 0.2);
+  border-radius: 17px;
+  padding: 20px;
+  margin: 30px auto;
+  width: 360px;
+  height: 880px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 4px 4px rgba(0, 0, 1, 0.1);
+}
+
+.upper-detail {
+  text-align: center;
+}
+
+.person-image {
+  width: 200px;
+  border-radius: 200px;
+  margin: 20px 0;
+}
+
+.name {
+  font-family: Montserrat, serif;
+  font-weight: 600;
+  font-size: 26px;
+  color: $black;
+  margin: 10px 0;
+}
+
+.role {
+  font-family: Montserrat, serif;
+  font-weight: 600;
+  font-size: 15px;
+  color: $blue;
+}
+
+.quotemark {
+  padding: 20px 0;
+}
+
+.quote {
+  font-family: Hind, serif;
+  font-weight: normal;
+  font-size: 15px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.person-details {
+  height: 323px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: $blue;
+  border-radius: 13px;
+  margin: 30px 0;
+  padding: 20px;
+}
+
+.detail, .detail-value {
+  font-family: Hind, serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: $white;
+}
+
+.detail-value {
+  font-weight: normal;
+}
+
+.person-experience {
+  font-family: Hind, serif;
+  font-weight: normal;
+  font-size: 15px;
+  padding: 20px 0;
+  color: $white;
+}
+
+@media screen and (max-width: 1300px){
+  .person-image {
+    width: 150px;
+  }
+  .name {
+    font-size: 20px;
+  }
+  .role {
+    font-size: 12px;
+  }
+  .detail, .detail-value {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .our-team {
+    padding: 0
+  }
+}
+
